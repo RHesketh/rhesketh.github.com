@@ -1,0 +1,13 @@
+---
+layout: post
+title: Making a start with Ruby, git, GitHub and more
+---
+
+h1. {{ page.title }}
+p(meta). 7 Dec 2009 - Manchester, England
+
+I am an absolute newcomer to the world of Ruby, being more typically found working with "C#":http://msdn.microsoft.com/en-us/vcsharp/default.aspx in "Visual Studio":http://en.wikipedia.org/wiki/Microsoft_Visual_Studio on Windows. Having heard nice things from others, however, and lacking anything better to do with my time, I have decided to give it a try.
+
+Being a Windows user primarily, an interest in Ruby has introduced me to other technologies which I am currently just as inexperienced with. These include the Linux operating system, git, GitHub, Pivotal Tracker, Textile and a number of other wonderful things. I hope to improve my familiarity with all of these as I work on personal pet projects to gain experience, and will be writing about the results on this blog as well as uploading various bits of code to my GitHub repositories.
+
+To start with I'll be working on little tasks set by my friend "Elliot":http://github.com/elliotcm as well as reading the "Programming Ruby":http://pragprog.com/titles/ruby/programming-ruby book which he has recommended to me. That should be enough to occupy whatever free time I have over the next few months. 
