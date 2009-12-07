@@ -4,7 +4,7 @@ title: Making a start with Ruby, git, GitHub and more
 ---
 
 h1. {{ page.title }}
-7 Dec 2009 - Manchester, England
+p(meta). 07 Dec 2009 - Manchester, England
 
 I am an absolute newcomer to the world of "Ruby":http://www.ruby-lang.org/en/ and am more typically found working with "C#":http://msdn.microsoft.com/en-us/vcsharp/default.aspx in "Visual Studio":http://en.wikipedia.org/wiki/Microsoft_Visual_Studio on Windows. Having heard nice things from others, however, and lacking anything better to do with my time, I have decided to give it a try.
 
