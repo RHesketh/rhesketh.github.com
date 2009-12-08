@@ -3,6 +3,8 @@ layout: post
 title: Tools for working with Ruby in Linux
 ---
 
+h1. {{ page.title }}
+
 As I mentioned in my previous post, I am a Windows user by habit and so Linux is largely unfamiliar to me. I've played around with it before, but until now I haven't really had a _need_ to use it since Windows has done everything I have needed. With Ruby, however, I decided to try Linux so that I could work with similar tools to my Mac-owning friend as well as use tools such as "Cucumber":http://cukes.info/ in a more mature environment with less hurdles. Learning Ruby also serves as a good excuse to familiarise myself with some useful tools and web applications that I haven't had much experience working with.
 
 As time goes on and my requirements change I have no doubt the tools I use will change with them. The following is merely my initial impressions as a newcomer to the Linux side of computing.
