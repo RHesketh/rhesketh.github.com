@@ -8,15 +8,19 @@ As I mentioned in my previous post, I am a Windows user by habit and so Linux is
 As time goes on and my requirements change I have no doubt the tools I use will change with them. The following is merely my initial impressions as a newcomer to the Linux side of computing.
 
 h2. Operating system: OpenSUSE 
+
 I have installed "OpenSUSE v11.2":http://www.opensuse.org/ on my "Dell Inspiron 1501":http://en.wikipedia.org/wiki/Dell_Inspiron#Inspiron_1501 laptop and so far have no complaints. The installer was professional and easy to use, and played nicely with my existing Windows XP installation to effortlessly create a dual-boot setup. The display is the correct resolution and the trackpad works perfectly, as does the battery/power management, flash video, wireless networking and sound. It's a far cry from my previous experiences with Ubuntu Linux and other distributions.
 
 h2. Revision control: git & GitHub
+
 In the past I have used "CVS":http://www.nongnu.org/cvs/ and "Subversion":http://subversion.tigris.org/, but have been hearing a lot about "git":http://git-scm.com/. I was especially impressed with the ease of branching and merging, allowing developers to fork and merge a new branch for each separate feature being worked on if they wish. I've not had a chance to take advantage of that yet, but I imagine it will come in handy in the future. Along with git I was recommended "GitHub":http://github.com, a powerful but easy to use repository hosting service which is free for open source projects. It's a social site as well, allowing my friend to watch what I'm doing and easily check on the code I'm writing, as well as submit changes if required. GitHub also has a handy static website hosting section called "GitHub Pages":http://pages.github.com/, which is what I'm using to host this blog.
 
 h2. Text editor: Arcadia
+
 There are some who say that emacs and vim are the only text editors you need for software development. They're both fine tools, in fact I'm typing this blog entry into vim right now. Being a Windows developer though, I prefer to work in an IDE since that's the kind of environment I'm used to. I've seen "Aptana RadRails":http://www.radrails.org/, and it looks good, but at the moment I'm just writing small scripts in Ruby and RadRails is probably overkill. I decided to pick something a little simpler, and have chosen "Arcadia":http://arcadia.rubyforge.org/, which is written in Ruby and uses the Tcl/TK GUI toolkit. At the moment it suits my limited requirements perfectly, since it will run Ruby code with a click and show the results in an output window. More importantly, it does this out of the box. I could have used "Kate":http://kate-editor.org/ or "gedit":http://projects.gnome.org/gedit/, but I wanted to jump right into coding instead of configuring plugins to make them work the way I want. I may look into using gedit in the future once I've got some Ruby code under my belt, and will probably end up using RadRails once I start working with Ruby.
 
 h2. Project management: Pivotal Tracker
+
 I was recommended "Pivotal Tracker":http://www.pivotaltracker.com/ by the same person who suggested GitHub. We're using it so that he can set me tasks to do and I can keep track of them without us having to IM each other back and forth all the time. We're in different time zones, so it's definitely handy. It's also a tool that gets used in a real production environment, so managing projects in it is useful experience to have. He's playing the part of client, and I'm playing the part of developer.
 
 
