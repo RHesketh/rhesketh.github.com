@@ -1,0 +1,12 @@
+---
+layout: post
+title: A new year, a new start.
+---
+
+h1. {{ page.title }} 
+
+I have switched from OpenSUSE to "Ubuntu Linux":http://www.ubuntu.com/ due to persistant errors preventing OpenSUSE from booting. Although I found OpenSUSE to be an agreeable OS for programming in, it would frequently refuse to boot and require time spent diagnosing the problem. I have switched to Ubuntu in the hopes that it will be a little more reliable.
+
+I have also purchased a paper copy of the book "Programming Ruby 1.9":http://pragprog.com/titles/ruby3/programming-ruby-1-9, which will replace the PDF of Programming Ruby that I was previously using. A physical copy should be easier to read with only one monitor.
+
+I have also switched from Arcadia to "NetBeans IDE":http://netbeans.org/ for no reason other than it is mentioned in the book, and I hope that as a more developed IDE it will scale better as I do more with Ruby. So far it seems to have respectable functionality although it feels a little slow. This may be due to my old laptop hardware and the fact it's build on Java, although the IDE is perfectly usable.
