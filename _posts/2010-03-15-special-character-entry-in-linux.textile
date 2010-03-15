@@ -1,0 +1,28 @@
+---
+layout: post
+title: Special character entry in Linux
+---
+
+h1. {{ page.title }} 
+
+Just a quick update to relay a little tip I found handy having switched from Windows to Ubuntu. I was looking for an alternative to Windows' Alt+[number] shortcut for entering special characters and symbols. A similar method is to use 'Unicode input mode' by pressing ctrl-shift-U and then typing the Unicode value of the symbol you want. For example, to get a backslash ('\') with a value of 005c you would enter:
+
+ctrl-shift-u + 5c [space]
+
+Further discussion of Unicode input methods in Ubuntu can be found at "this blog entry":http://distilledb.com/blog/archives/date/2009/03/06/typing-special-characters-in-ubuntu.page. 
+
+.h2 Special instructions for Netbeans IDE
+
+Unfortunately, the NetBeans 6.8 IDE that I am using doesn't seem to support this method of Unicode character input directly. I am aware of two solutions to this problem. The first is to create a macro for each character you wish to insert, the second is to use a plugin specifically designed for allowing Unicode input.
+
+.h3 Adding a Macro
+
+Adding a macro is a bit of a quick-and-dirty solution, but may be acceptable if there is only a small number of characters you want to insert. To add a macro to Netbeans 6.8, select Tools > Options > Editor > Macros. Click the "New" button, give your macro a name, and in the 'Macro Code' box enter "[literal unicode character]" (including quotation marks)[1]. Finally, assign a shortcut key to this macro (for example ctrl-shift-B). Every time you press the shortcut key, your Unicode character will appear in the Source Editor.
+
+.h3 Insert Unicode plugin
+
+For a more robust solution you can install the "Insert Unicode" plugin, which is named "org-netbeans-modules-insertunicode.nbm". At time of writing this can be found at "this plugin repository":http://deadlock.netbeans.org/hudson/job/nbms-and-javadoc/lastSuccessfulBuild/artifact/nbbuild/nbms/extra/ (direct link "here":http://deadlock.netbeans.org/hudson/job/nbms-and-javadoc/lastSuccessfulBuild/artifact/nbbuild/nbms/extra/org-netbeans-modules-insertunicode.nbm). 
+
+To install a plugin, download it to your local drive, then click Tools > Plugins. Click the "Downloaded" tab, then the "Add Plugins" button, and find the downloaded file. Finally, select the "Install" button, accept the license agreement, and the plugin will be installed. Once the IDE restarts, you should be able to insert Unicode characters by right-clicking the Source Editor and selecting "Insert Unicode" from the context menu. Presumably this will also allow you to bind a Keymap to Insert Unicode in the Options, but I have not personally tried this out. 
+
+fn1. Remember that if your character is Backslash it will have to be entered twice ("\\") because a single backslash is the escape character.   
