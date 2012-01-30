@@ -1,0 +1,16 @@
+---
+layout: post
+title: Developing a game using BDD
+---
+
+h1. {{ page.title }}
+
+So, as a way of getting more practice at both developing videogames and using BDD, I've decided to write a game using BDD. Now, I realise that if you ask a lot of game developers they will tell you that this is insane, that BDD or even TDD are unsuitable for game projects because they are inherently at odds with the way games are developed. This might well turn out to be the case, and if it is then I'll find out and write about it here.
+
+I think that BDD would be a good development strategy for a game because games are all about behaviours and interactions. I think that being able to specify game mechanics in executable tests, defining what should happen when a bullet hits a ship or a player selects a unit, would be a great way to organically grow game behaviour. I also believe that full test coverage allows for more bold changes, which will allow me to be more ruthless when refactoring code to stop it becoming logic soup.
+
+The main problem that I can foresee is bootstrapping the development process. In my experience game development involves a lot of work up-front writing subsystems such as the map readers or graphics renderers. This might be difficult to test and/or specify as atomic, appropriately sized features. Once the groundwork has been done then I'll be able to focus on game mechanics more, and this is where I think BDD will really shine. The up front engine work prior to that may end up being a hurdle to clear.
+
+I'll be using "Chingu":https://github.com/ippa/chingu, the Ruby game development library. I've done a little spike in it and it seems nice to work with. The choice to use Ruby for game development might provoke Strong Opinions from some, as the blog posts I've read range from "Use Ruby for games, it's great" to "Avoid Ruby for games, it's awful!." I'm going to sidestep this argument by considering my game a prototype. Ruby's a fun environment to work in, and if performance becomes an issue later I can always rewrite it in C.
+
+Anyway, enough blabbing from me. I'll be putting the whole thing on Github and pushing to it as I develop, and probably updating this blog with my thoughts and experience. Will this project be a resounding success? Will it be a horrible failure? Will I get bored of writing videogames and start work on a real-time collaborative shopping list app? Keep reading to find out, I guess.
